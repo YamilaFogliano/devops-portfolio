@@ -94,3 +94,12 @@ Cada repo tiene:
 - **[roadmap.sh/devops](https://roadmap.sh/devops)** — guía de qué aprender
 - **[GitHub](https://github.com)** — CI/CD con Actions (minutos gratis)
 - **[Docker Hub](https://hub.docker.com)** — registry de imágenes (plan free)
+
+## Mes 1
+Contenido del primer mes.
+
+## Mes 2
+Contenido del segundo mes.
+
+## Mes 3
+Contenido del tercer mes.
