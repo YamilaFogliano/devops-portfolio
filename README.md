@@ -2,7 +2,7 @@
 
 DevOps Engineer en formación. Complete un plan de estudio de Operaciones1 usando únicamente herramientas gratuitas.
 
-## Pila
+## Stack
 | Linux | Docker | Kubernetes | Terraform | GitHub Actions | Prometheus | Python |
 |---|---|---|---|---|---|---|
 
