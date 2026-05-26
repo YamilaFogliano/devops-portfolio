@@ -1,49 +1,104 @@
-# Hola, soy María Yamila Fogliano 👋
+<div align="center">
 
-DevOps Engineer en formación. 
-Completé un plan de estudio de Operaciones1
-usando únicamente herramientas gratuitas.
+# DevOps
+Portfolio — Path Operaciones1
 
-## Stack
+[![TP07 CI/CD](https://github.com/yamilafogliano/devops-TP06/actions/workflows/cicd.yml/badge.svg)](https://github.com/yamilafogliano/devops-TP06/actions)
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-green.svg)](LICENSE)
+[![Hecho con](https://img.shields.io/badge/hecho%20con-Killercoda%20%2B%20KodeKloud-blue.svg)](https://killercoda.com)
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+</div>
 
-## Portfolio DevOps
+---
 
-📁 [**Ver portfolio completo →**](https://github.com/yamilafogliano/devops-portfolio)
+## Sobre este portfolio
 
-| Proyecto | Descripción |
-|---|---|
-| [Notes App](https://github.com/yamilafogliano/devops-TP06) | API Flask + Postgres + Nginx en Docker Compose con CI/CD |
-| [Kubernetes Deploy](https://github.com/yamilafogliano/devops-TP09) | Misma app en K8s con Deployments, Services y Probes |
-| [Helm Chart](https://github.com/yamilafogliano/devops-TP10) | Chart parametrizado con Ingress y HPA |
-| [Terraform IaC](https://github.com/yamilafogliano/devops-TP11) | Infraestructura Docker como código con módulos |
-| [Monitoring Stack](https://github.com/yamilafogliano/devops-TP08) | Prometheus + Grafana con métricas propias de la app |
+Aprendí DevOps desde cero en Operaciones1 usando únicamente herramientas gratuitas.
+Cada TP tiene un entregable concreto en GitHub que demuestra lo aprendido en práctica.
 
-## Contacto
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yamilafogliano)
+---
 
 ## Stack tecnológico
-Detalle de las tecnologías y herramientas aplicadas en este portafolio.
+
+| Categoría | Herramientas |
+|---|---|
+| **OS / Scripting** | Linux (Ubuntu), Bash |
+| **Control de versiones** | Git, GitHub, Gitflow |
+| **Contenedores** | Docker, Docker Compose |
+| **CI/CD** | GitHub Actions |
+| **Monitoreo** | Prometheus, Grafana, cAdvisor |
+| **Orquestación** | Kubernetes (kubectl, Helm) |
+| **IaC** | Terraform (provider Docker) |
+| **Backend** | Python, Flask, Gunicorn |
+| **Base de datos** | PostgreSQL |
+| **Proxy / Frontend** | Nginx |
+| **Config** | YAML, HCL, JSON |
+
+---
 
 ## Proyectos por TP
-Listado y documentación de los Trabajos Prácticos del plan de estudio.
 
-## Plataformas usadas
-Entornos y servicios utilizados para el despliegue de las aplicaciones.
+### 1 al 4 — Fundamentos
 
-## Mes 1
-Contenido correspondiente al primer módulo del plan de estudio.
+| TP | Proyecto | Tecnologías | Link |
+|---|---|---|---|
+| 1 | Script de automatización del sistema | Bash, cron | [→ ver repo](https://github.com/yamilafogliano/devops-TP01) |
+| 2 | Gestión de usuarios y permisos | Linux, chmod, useradd | [→ ver repo](https://github.com/yamilafogliano/devops-TP02) |
+| 3 | Flujo Gitflow completo | Git, GitHub, branching | [→ ver repo](https://github.com/yamilafogliano/devops-gitflow) |
+| 4 | YAML multi-entorno + diagnóstico de red | YAML, bash, ping, dig, curl | [→ ver repo](https://github.com/yamilafogliano/devops-TP04) |
 
-## Mes 2
-Contenido correspondiente al segundo módulo del plan de estudio.
+### 5 al 8 — Contenedores y CI/CD
 
-## Mes 3
-Contenido correspondiente al tercer módulo del plan de estudio.
+| TP | Proyecto | Tecnologías | Link |
+|---|---|---|---|
+| 5 | API Python en Docker | Docker, Flask, Gunicorn | [→ ver repo](https://github.com/yamilafogliano/devops-TP05) |
+| 6 | App multi-contenedor | Docker Compose, Postgres, Nginx | [→ ver repo](https://github.com/yamilafogliano/devops-TP06) |
+| 7 | Pipeline CI/CD completo | GitHub Actions, pytest, Docker Hub | [→ ver repo](https://github.com/yamilafogliano/devops-TP06) |
+| 8 | Stack de monitoreo | Prometheus, Grafana, Node Exporter | [→ ver repo](https://github.com/yamilafogliano/devops-TP08) |
+
+### 9 al 12 — Kubernetes e IaC
+
+| TP | Proyecto | Tecnologías | Link |
+|---|---|---|---|
+| 9 | App en Kubernetes | kubectl, Pods, Deployments, Services | [→ ver repo](https://github.com/yamilafogliano/devops-TP09) |
+| 10 | Helm Chart + Ingress | Helm, Ingress NGINX, HPA | [→ ver repo](https://github.com/yamilafogliano/devops-TP10) |
+| 11 | Infraestructura como Código | Terraform, módulos, state | [→ ver repo](https://github.com/yamilafogliano/devops-TP11) |
+| 12 | Portfolio final | GitHub Actions, integración | [→ este repo](https://github.com/yamilafogliano/devops-portfolio) |
+
+---
+
+## Proyecto integrador: Notes App
+
+La app que construí TP a TP terminó siendo una aplicación real de notas con todo el stack DevOps aplicado:
+
+Código → GitHub Actions (CI) → Docker Hub → Kubernetes (CD) ↓ Prometheus + Grafana (monitoreo en tiempo real)
+
+**Repo principal:** [devops-TP06](https://github.com/yamilafogliano/devops-TP06)
+
+---
+
+## Cómo ver cada proyecto
+
+Cada repo tiene:
+- `README.md` con explicación del proyecto y comandos para correrlo
+- `scripts/verificar.sh` para confirmar que todo funciona
+- Entregable funcional que podés levantar con un solo comando
+
+---
+
+## Plataformas usadas (todas gratuitas)
+
+- **[Killercoda](https://killercoda.com)** — labs con terminal real en el navegador
+- **[KodeKloud](https://kodekloud.com)** — cursos estructurados con videos
+- **[roadmap.sh/devops](https://roadmap.sh/devops)** — guía de qué aprender
+- **[GitHub](https://github.com)** — CI/CD con Actions (minutos gratis)
+- **[Docker Hub](https://hub.docker.com)** — registry de imágenes (plan free)
+
+### Mes 1
+*Sección de seguimiento del primer mes.*
+
+### Mes 2
+*Sección de seguimiento del segundo mes.*
+
+### Mes 3
+*Sección de seguimiento del tercer mes.*
