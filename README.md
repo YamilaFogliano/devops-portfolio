@@ -1,36 +1,41 @@
 # Hola, soy María Yamila Fogliano 👋
 
-Ingeniero DevOps en formación. Complete un plan de estudio de Operaciones1 usando únicamente herramientas gratuitas.
+DevOps Engineer en formación. Complete un plan de estudio de Operaciones1 usando únicamente herramientas gratuitas.
 
 ## Pila
 | Linux | Docker | Kubernetes | Terraform | GitHub Actions | Prometheus | Python |
 |---|---|---|---|---|---|---|
 
 ## Portafolio DevOps
-* [Ver portafolio completo →](#)
+* [Ver portafolio completo →](https://github.com/yamilafogliano/devops-portfolio)
 
 | Proyecto | Descripción |
 |---|---|
-| [Aplicación de notas](#) | API Flask + Postgres + Nginx en Docker Compose con CI/CD |
-| [Implementación de Kubernetes](#) | Misma app en K8s con Implementaciones, Servicios y Sondas |
-| [Tabla del timón](#) | Gráfico parametrizado con Ingress y HPA |
-| [Terraform IaC](#) | Infraestructura Docker como código con módulos |
-| [Pila de monitorización](#) | Prometheus + Grafana con métricas propias de la app |
+| [devops-TP01](https://github.com/yamilafogliano/devops-TP01) | API Flask + Postgres + Nginx en Docker Compose con CI/CD |
+| [devops-TP02](https://github.com/yamilafogliano/devops-TP02) | Prácticas iniciales de Git y flujos de trabajo |
+| [devops-gitflow](https://github.com/yamilafogliano/devops-gitflow) | Implementación de ramificación y flujo de trabajo Gitflow |
+| [devops-TP04](https://github.com/yamilafogliano/devops-TP04) | Contenerización avanzada y despliegues locales |
+| [devops-TP05](https://github.com/yamilafogliano/devops-TP05) | Automatización de infraestructura básica |
+| [devops-TP06](https://github.com/yamilafogliano/devops-TP06) | Configuración de entornos de Staging y Producción |
+| [devops-TP08](https://github.com/yamilafogliano/devops-TP08) | Orquestación avanzada en clusters de Kubernetes |
+| [devops-TP09](https://github.com/yamilafogliano/devops-TP09) | Gráfico parametrizado con Ingress y HPA |
+| [devops-TP10](https://github.com/yamilafogliano/devops-TP10) | Infraestructura como código (IaC) con módulos de Terraform |
+| [devops-TP11](https://github.com/yamilafogliano/devops-TP11) | Pila de monitorización con Prometheus y Grafana (métricas de la app) |
 
 ## Stack tecnológico
-*(Aquí puedes agregar detalles de tus herramientas si quieres)*
+Listado de herramientas y tecnologías DevOps aplicadas a lo largo de los proyectos del portafolio.
 
 ## Proyectos por TP
-*(Aquí puedes agregar más información de tus TPs)*
+Detalle individual y documentación correspondiente a cada Trabajo Práctico entregado.
 
 ## Plataformas usadas
-*(Aquí puedes poner AWS, GitHub, etc.)*
+GitHub, GitHub Actions, Docker Hub, entornos Linux (Ubuntu LTS).
 
 ## Mes 1
-Contenido del mes 1.
+Contenido y TPs desarrollados durante el primer bloque del plan de estudios.
 
 ## Mes 2
-Contenido del mes 2.
+Contenido y TPs desarrollados durante el segundo bloque del plan de estudios.
 
 ## Mes 3
-Contenido del mes 3.
+Contenido y TPs desarrollados durante el tercer bloque del plan de estudios.
