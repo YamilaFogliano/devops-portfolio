@@ -1,41 +1,49 @@
 # Hola, soy María Yamila Fogliano 👋
 
-DevOps Engineer en formación. Complete un plan de estudio de Operaciones1 usando únicamente herramientas gratuitas.
+DevOps Engineer en formación. 
+Completé un plan de estudio de Operaciones1
+usando únicamente herramientas gratuitas.
 
 ## Stack
-| Linux | Docker | Kubernetes | Terraform | GitHub Actions | Prometheus | Python |
-|---|---|---|---|---|---|---|
 
-## Portafolio DevOps
-* [Ver portafolio completo →](https://github.com/yamilafogliano/devops-portfolio)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+## Portfolio DevOps
+
+📁 [**Ver portfolio completo →**](https://github.com/yamilafogliano/devops-portfolio)
 
 | Proyecto | Descripción |
 |---|---|
-| [devops-TP01](https://github.com/yamilafogliano/devops-TP01) | API Flask + Postgres + Nginx en Docker Compose con CI/CD |
-| [devops-TP02](https://github.com/yamilafogliano/devops-TP02) | Prácticas iniciales de Git y flujos de trabajo |
-| [devops-gitflow](https://github.com/yamilafogliano/devops-gitflow) | Implementación de ramificación y flujo de trabajo Gitflow |
-| [devops-TP04](https://github.com/yamilafogliano/devops-TP04) | Contenerización avanzada y despliegues locales |
-| [devops-TP05](https://github.com/yamilafogliano/devops-TP05) | Automatización de infraestructura básica |
-| [devops-TP06](https://github.com/yamilafogliano/devops-TP06) | Configuración de entornos de Staging y Producción |
-| [devops-TP08](https://github.com/yamilafogliano/devops-TP08) | Orquestación avanzada en clusters de Kubernetes |
-| [devops-TP09](https://github.com/yamilafogliano/devops-TP09) | Gráfico parametrizado con Ingress y HPA |
-| [devops-TP10](https://github.com/yamilafogliano/devops-TP10) | Infraestructura como código (IaC) con módulos de Terraform |
-| [devops-TP11](https://github.com/yamilafogliano/devops-TP11) | Pila de monitorización con Prometheus y Grafana (métricas de la app) |
+| [Notes App](https://github.com/yamilafogliano/devops-TP06) | API Flask + Postgres + Nginx en Docker Compose con CI/CD |
+| [Kubernetes Deploy](https://github.com/yamilafogliano/devops-TP09) | Misma app en K8s con Deployments, Services y Probes |
+| [Helm Chart](https://github.com/yamilafogliano/devops-TP10) | Chart parametrizado con Ingress y HPA |
+| [Terraform IaC](https://github.com/yamilafogliano/devops-TP11) | Infraestructura Docker como código con módulos |
+| [Monitoring Stack](https://github.com/yamilafogliano/devops-TP08) | Prometheus + Grafana con métricas propias de la app |
+
+## Contacto
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yamilafogliano)
 
 ## Stack tecnológico
-Listado de herramientas y tecnologías DevOps aplicadas a lo largo de los proyectos del portafolio.
+Detalle de las tecnologías y herramientas aplicadas en este portafolio.
 
 ## Proyectos por TP
-Detalle individual y documentación correspondiente a cada Trabajo Práctico entregado.
+Listado y documentación de los Trabajos Prácticos del plan de estudio.
 
 ## Plataformas usadas
-GitHub, GitHub Actions, Docker Hub, entornos Linux (Ubuntu LTS).
+Entornos y servicios utilizados para el despliegue de las aplicaciones.
 
 ## Mes 1
-Contenido y TPs desarrollados durante el primer bloque del plan de estudios.
+Contenido correspondiente al primer módulo del plan de estudio.
 
 ## Mes 2
-Contenido y TPs desarrollados durante el segundo bloque del plan de estudios.
+Contenido correspondiente al segundo módulo del plan de estudio.
 
 ## Mes 3
-Contenido y TPs desarrollados durante el tercer bloque del plan de estudios.
+Contenido correspondiente al tercer módulo del plan de estudio.
