@@ -58,9 +58,18 @@ jobs:
               echo "  [OK] $REPO (último commit: $LAST)"
               echo "| $REPO | ✅ activo | $LAST |" >> $GITHUB_STEP_SUMMARY
             else
-              echo "  [FAIL] $REPO no encontrado (HTTP $CODE)"
-              echo "| $REPO | ❌ no encontrado | — |" >> $GITHUB_STEP_SUMMARY
-              ERRORES=$((ERRORES+1))
+              LAST_MASTER=$(curl -s \
+                -H "Authorization: token $GH_TOKEN" \
+                "$URL/commits/master" | python3 -c \
+                "import sys,json; d=json.load(sys.stdin); print(d['commit']['committer']['date'][:10])" 2>/dev/null || echo "?")
+              if [ "$LAST_MASTER" != "?" ]; then
+                echo "  [OK] $REPO (último commit: $LAST_MASTER en master)"
+                echo "| $REPO | ✅ activo | $LAST_MASTER |" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "  [FAIL] $REPO no encontrado (HTTP $CODE)"
+                echo "| $REPO | ❌ no encontrado | — |" >> $GITHUB_STEP_SUMMARY
+                ERRORES=$((ERRORES+1))
+              fi
             fi
           done
 
@@ -80,12 +89,12 @@ jobs:
       - name: Verificar que el README tiene todas las secciones
         run: |
           SECCIONES=(
-            "Stack tecnológico"
-            "Proyectos por TP"
+            "Stack"
+            "Proyectos"
             "Mes 1"
             "Mes 2"
             "Mes 3"
-            "Plataformas usadas"
+            "Plataformas"
           )
           FALTANTES=0
           for SEC in "${SECCIONES[@]}"; do
