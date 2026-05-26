@@ -31,10 +31,6 @@ usando únicamente herramientas gratuitas.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yamilafogliano)
 
 ## Mes 1
-Contenido del primer mes.
-
 ## Mes 2
-Contenido del segundo mes.
-
 ## Mes 3
-Contenido del tercer mes.
+
