@@ -54,9 +54,8 @@ jobs:
               LAST=$(curl -s \
                 -H "Authorization: token $GH_TOKEN" \
                 "$URL/commits/main" | python3 -c \
-                "import sys,json; d=json.load(sys.stdin); \
-                 print(d['commit']['committer']['date'][:10])" 2>/dev/null || echo "?")
-              echo "  [OK]  $REPO (último commit: $LAST)"
+                "import sys,json; d=json.load(sys.stdin); print(d['commit']['committer']['date'][:10])" 2>/dev/null || echo "?")
+              echo "  [OK] $REPO (último commit: $LAST)"
               echo "| $REPO | ✅ activo | $LAST |" >> $GITHUB_STEP_SUMMARY
             else
               echo "  [FAIL] $REPO no encontrado (HTTP $CODE)"
@@ -90,8 +89,8 @@ jobs:
           )
           FALTANTES=0
           for SEC in "${SECCIONES[@]}"; do
-            if grep -q "$SEC" README.md; then
-              echo "  [OK]  Sección: $SEC"
+            if grep -riq "$SEC" README.md; then
+              echo "  [OK] Sección: $SEC"
             else
               echo "  [FAIL] Falta sección: $SEC"
               FALTANTES=$((FALTANTES+1))
@@ -112,9 +111,8 @@ jobs:
           echo "## Portfolio Stats — $(date '+%Y-%m-%d')"
           echo ""
           echo "- TPs completados: 12 / 12"
-          echo "- Tecnologías cubiertas: $(grep -o '|.*|' README.md | wc -l) entradas en tabla de stack"
+          echo "- Tecnologías cubiertas: $(grep -o '|.*|' README.md | wc -l || echo '0') entradas en tabla de stack"
           echo "- Repos del portfolio: 11"
           echo "- Inversión total: \$0"
           echo ""
           echo "Pipeline corrido exitosamente"
-
