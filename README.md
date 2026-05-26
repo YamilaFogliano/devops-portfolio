@@ -96,10 +96,5 @@ Cada repo tiene:
 - **[Docker Hub](https://hub.docker.com)** — registry de imágenes (plan free)
 
 ## Mes 1
-Contenido del primer mes.
-
 ## Mes 2
-Contenido del segundo mes.
-
 ## Mes 3
-Contenido del tercer mes.
