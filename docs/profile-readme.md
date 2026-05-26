@@ -29,3 +29,21 @@ usando únicamente herramientas gratuitas.
 ## Contacto
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yamilafogliano)
+
+## Stack tecnológico
+Detalle de las tecnologías y herramientas aplicadas en este portafolio.
+
+## Proyectos por TP
+Listado y documentación de los Trabajos Prácticos del plan de estudio.
+
+## Plataformas usadas
+Entornos y servicios utilizados para el despliegue de las aplicaciones.
+
+## Mes 1
+Contenido correspondiente al primer módulo del plan de estudio.
+
+## Mes 2
+Contenido correspondiente al segundo módulo del plan de estudio.
+
+## Mes 3
+Contenido correspondiente al tercer módulo del plan de estudio.
